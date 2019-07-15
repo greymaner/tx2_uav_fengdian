@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -pedantic -std=c++11 -g  -rdynamic CMakeFiles/test_time_sync.dir/apps/test_time_sync.cpp.o  -o test_time_sync ../../libuavcan/libuavcan.a -lrt -lpthread 

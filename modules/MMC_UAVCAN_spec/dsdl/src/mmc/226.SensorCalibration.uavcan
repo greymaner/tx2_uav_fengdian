@@ -1,0 +1,36 @@
+# sensor module is server, server action according to client cmd value
+# CMD_SELFTEST, CALI_GET and CALI_SET command only act on the IC with corresponding devid
+# server ignore devid when cmd is CALI_START or CALI_STOP
+# server go into calibration state after CALI_START and ignore all CALI_START request with ok = false response
+# server go into normal state after CALI_STOP
+
+uint8 CMD_ACCEL_CALI_START = 1
+uint8 CMD_GYRO_CALI_START = 2
+uint8 CMD_MAG_CALI_START = 3
+
+uint8 CMD_ACCEL_CALI_STOP = 11
+uint8 CMD_GYRO_CALI_STOP = 12
+uint8 CMD_MAG_CALI_STOP = 13
+
+uint8 CMD_ACCEL_CALI_GET = 21
+uint8 CMD_GYRO_CALI_GET = 22
+uint8 CMD_MAG_CALI_GET = 23
+
+uint8 CMD_ACCEL_CALI_SET = 31
+uint8 CMD_GYRO_CALI_SET = 32
+uint8 CMD_MAG_CALI_SET = 33
+
+uint8 CMD_SELFTEST = 100
+
+uint8 cmd
+uint32 devid
+
+float32[3] offset
+float32[3] scale
+
+---
+
+float32[3] offset
+float32[3] scale
+
+bool ok

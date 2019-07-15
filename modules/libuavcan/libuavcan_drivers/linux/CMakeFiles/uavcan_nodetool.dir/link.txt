@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -pedantic -std=c++11 -g  -rdynamic CMakeFiles/uavcan_nodetool.dir/apps/uavcan_nodetool.cpp.o  -o uavcan_nodetool ../../libuavcan/libuavcan.a -lrt -lpthread 

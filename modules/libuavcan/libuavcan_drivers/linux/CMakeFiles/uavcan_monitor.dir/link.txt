@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -pedantic -std=c++11 -g  -rdynamic CMakeFiles/uavcan_monitor.dir/apps/uavcan_monitor.cpp.o  -o uavcan_monitor ../../libuavcan/libuavcan.a -lrt -lpthread 

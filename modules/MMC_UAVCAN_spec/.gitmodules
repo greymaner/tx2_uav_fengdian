@@ -1,0 +1,3 @@
+[submodule "libuavcan"]
+	path = libuavcan
+	url = http://192.168.4.85/askariz/MMC_uavcan.git

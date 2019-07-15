@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mmc-wy/mmc_onboard/modules/embed-resource/embedresource.cpp
+boost/filesystem.hpp
+-
+boost/filesystem/fstream.hpp
+-
+iostream
+-
+

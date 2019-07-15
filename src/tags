@@ -1,0 +1,159 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AppBuilder	GUI/appbuilder.h	/^namespace AppBuilder$/;"	n
+Application	GUI/application.cpp	/^Application::Application(ThreadExchangeData* data) :  _data(data),nanogui::Screen(Eigen::Vector2i(1920,1080), "NanoGUI Starter",\/*resizable*\/true, \/*fullscreen*\/false, \/*colorBits*\/8,\/*alphaBits*\/8, \/*depthBits*\/24, \/*stencilBits*\/8,\/*nSamples*\/0, \/*glMajor*\/4, \/*glMinor*\/1) {$/;"	f	class:Application
+Application	GUI/application.h	/^class Application : public nanogui::Screen$/;"	c
+Arcball	GUI/Interaction/arcball.cpp	/^Arcball::Arcball(int width, int height, float radius) {$/;"	f	class:Arcball
+Arcball	GUI/Interaction/arcball.h	/^class Arcball$/;"	c
+BrightnessAndContrastAuto	Calc/VideoProcess/VideoProcess.cpp	/^void VideoProcess::BrightnessAndContrastAuto(const cv::Mat &src, cv::Mat &dst, float clipHistPercent)$/;"	f	class:VideoProcess
+Camera	GUI/OpenGL/camera.h	/^    Camera(const glm::vec3& pos, float fov, float aspect, float zNear, float zFar) {$/;"	f	class:Camera
+Camera	GUI/OpenGL/camera.h	/^class Camera$/;"	c
+GLM_ENABLE_EXPERIMENTAL	GUI/Interaction/arcball.h	12;"	d
+GLM_ENABLE_EXPERIMENTAL	GUI/OpenGL/camera.h	12;"	d
+GLM_ENABLE_EXPERIMENTAL	GUI/OpenGL/transform.h	9;"	d
+GLM_ENABLE_EXPERIMENTAL	GUI/openglcanvas.h	22;"	d
+GetRotateAngle	Calc/VideoProcess/VideoProcess.cpp	/^double VideoProcess::GetRotateAngle(cv::Mat frame, bool BACA = false, int threhold_method=2)$/;"	f	class:VideoProcess
+OpenGLCanvas	GUI/openglcanvas.cpp	/^OpenGLCanvas::OpenGLCanvas(Widget *parent, ThreadExchangeData* data) : nanogui::GLCanvas(parent)$/;"	f	class:OpenGLCanvas
+OpenGLCanvas	GUI/openglcanvas.h	/^class OpenGLCanvas : public nanogui::GLCanvas$/;"	c
+OpencvProcess	Calc/opencvprocess.h	/^namespace OpencvProcess{$/;"	n
+Pan	GUI/Interaction/pan.cpp	/^Pan::Pan(int width, int height) {$/;"	f	class:Pan
+Pan	GUI/Interaction/pan.h	/^class Pan$/;"	c
+THESIS_APPLICATION_H	GUI/application.h	9;"	d
+THESIS_APPLOADER_H	GUI/appbuilder.h	9;"	d
+THESIS_ARCBALL_H	GUI/Interaction/arcball.h	9;"	d
+THESIS_CAMERAOLD_H	GUI/OpenGL/camera.h	9;"	d
+THESIS_OPENGLCANVAS_H	GUI/openglcanvas.h	9;"	d
+THESIS_PAN_H	GUI/Interaction/pan.h	9;"	d
+THESIS_TESTCALC_H	Calc/testCalc.h	9;"	d
+THESIS_THREADEXCHANGEDATA_H	Utils/threadexchangedata.h	9;"	d
+THESIS_TRANSFORMOLD_H	GUI/OpenGL/transform.h	14;"	d
+THESIS_ZOOM_H	GUI/Interaction/zoom.h	9;"	d
+TX2_OPENCVPROCESS_H	Calc/opencvprocess.h	6;"	d
+TX2_UAVCANNODE_H	Calc/UavcanNode/UavcanNode.h	6;"	d
+TX2_UAVCANPROCESS_H	Calc/uavcanprocess.h	6;"	d
+TX2_VIDEO_H	Calc/VideoProcess/VideoProcess.h	6;"	d
+TestCalc	Calc/testCalc.h	/^namespace TestCalc$/;"	n
+ThreadExchangeData	Utils/threadexchangedata.h	/^struct ThreadExchangeData {$/;"	s
+Transform	GUI/OpenGL/transform.h	/^    Transform(const glm::vec3& pos = glm::vec3(), const glm::vec3& rot = glm::vec3(), const glm::vec3& scale = glm::vec3(1.0f, 1.0f, 1.0f)) :$/;"	f	class:Transform
+Transform	GUI/OpenGL/transform.h	/^class Transform$/;"	c
+UavcanNode	Calc/UavcanNode/UavcanNode.cpp	/^UavcanNode::UavcanNode(ThreadExchangeData *data):_data(data),_task_should_exit(false){$/;"	f	class:UavcanNode
+UavcanNode	Calc/UavcanNode/UavcanNode.h	/^class UavcanNode {$/;"	c
+UavcanProcess	Calc/uavcanprocess.h	/^namespace UavcanProcess{$/;"	n
+VideoProcess	Calc/VideoProcess/VideoProcess.cpp	/^VideoProcess::VideoProcess(ThreadExchangeData *data):_data(data),_threadshouldexit (false){$/;"	f	class:VideoProcess
+VideoProcess	Calc/VideoProcess/VideoProcess.h	/^class VideoProcess {$/;"	c
+Zoom	GUI/Interaction/zoom.cpp	/^Zoom::Zoom(int height) {$/;"	f	class:Zoom
+Zoom	GUI/Interaction/zoom.h	/^class Zoom$/;"	c
+_cap	Calc/VideoProcess/VideoProcess.h	/^    cv::VideoCapture *_cap;$/;"	m	class:VideoProcess
+_data	Calc/UavcanNode/UavcanNode.h	/^    ThreadExchangeData *_data;$/;"	m	class:UavcanNode
+_data	Calc/VideoProcess/VideoProcess.h	/^    ThreadExchangeData * _data;$/;"	m	class:VideoProcess
+_data	GUI/application.h	/^    ThreadExchangeData* _data;$/;"	m	class:Application
+_node	Calc/UavcanNode/UavcanNode.h	/^    uavcan_linux::NodePtr _node;$/;"	m	class:UavcanNode
+_resource_basicShader_fs	GUI/shader/basicShader.fs.c	/^const char _resource_basicShader_fs[] = {$/;"	v
+_resource_basicShader_fs_len	GUI/shader/basicShader.fs.c	/^const size_t _resource_basicShader_fs_len = sizeof(_resource_basicShader_fs);/;"	v
+_resource_basicShader_vs	GUI/shader/basicShader.vs.c	/^const char _resource_basicShader_vs[] = {$/;"	v
+_resource_basicShader_vs_len	GUI/shader/basicShader.vs.c	/^const size_t _resource_basicShader_vs_len = sizeof(_resource_basicShader_vs);/;"	v
+_resource_frag_glsl	GUI/shader/frag.glsl.c	/^const char _resource_frag_glsl[] = {$/;"	v
+_resource_frag_glsl_len	GUI/shader/frag.glsl.c	/^const size_t _resource_frag_glsl_len = sizeof(_resource_frag_glsl);/;"	v
+_resource_vert_glsl	GUI/shader/vert.glsl.c	/^const char _resource_vert_glsl[] = {$/;"	v
+_resource_vert_glsl_len	GUI/shader/vert.glsl.c	/^const size_t _resource_vert_glsl_len = sizeof(_resource_vert_glsl);/;"	v
+_task_should_exit	Calc/UavcanNode/UavcanNode.h	/^    bool _task_should_exit;$/;"	m	class:UavcanNode
+_threadshouldexit	Calc/VideoProcess/VideoProcess.h	/^    bool _threadshouldexit;$/;"	m	class:VideoProcess
+angle	Utils/threadexchangedata.h	/^    float angle;$/;"	m	struct:ThreadExchangeData
+build	GUI/appbuilder.h	/^    static int build(ThreadExchangeData* data)$/;"	f	namespace:AppBuilder
+button	GUI/Interaction/arcball.cpp	/^void Arcball::button(float x, float y, bool down)$/;"	f	class:Arcball
+button	GUI/Interaction/pan.cpp	/^void Pan::button(float x, float y, bool down)$/;"	f	class:Pan
+button	GUI/Interaction/zoom.cpp	/^void Zoom::button(float y, bool down)$/;"	f	class:Zoom
+cal_crc_table	Calc/UavcanNode/UavcanNode.cpp	/^unsigned char UavcanNode::cal_crc_table(unsigned char *ptr, unsigned char len)$/;"	f	class:UavcanNode
+calcFrame	Utils/threadexchangedata.h	/^    std::queue<cv::Mat> calcFrame;$/;"	m	struct:ThreadExchangeData
+calc_over	Utils/threadexchangedata.h	/^    bool calc_over = false;$/;"	m	struct:ThreadExchangeData
+convertTo3Channels	Calc/VideoProcess/VideoProcess.cpp	/^cv::Mat VideoProcess::convertTo3Channels(cv::Mat binImg)$/;"	f	class:VideoProcess
+crc_table	Calc/UavcanNode/UavcanNode.cpp	/^static const unsigned char crc_table[] =$/;"	v	file:
+createGUI	GUI/application.cpp	/^void Application::createGUI(nanogui::Window *window) {$/;"	f	class:Application
+draw	GUI/application.cpp	/^void Application::draw(NVGcontext *ctx) {$/;"	f	class:Application
+drawGL	GUI/openglcanvas.cpp	/^void OpenGLCanvas::drawGL()$/;"	f	class:OpenGLCanvas
+endTime	Utils/threadexchangedata.h	/^    time_t endTime=0;$/;"	m	struct:ThreadExchangeData
+foo	Calc/testCalc.h	/^    void foo(ThreadExchangeData* test) {$/;"	f	namespace:TestCalc
+frame	Utils/threadexchangedata.h	/^    std::queue<cv::Mat> frame;$/;"	m	struct:ThreadExchangeData
+frame_num	Utils/threadexchangedata.h	/^    const int frame_num = 100;$/;"	m	struct:ThreadExchangeData
+getMinEnclosingTriangle	Calc/VideoProcess/VideoProcess.cpp	/^double VideoProcess::getMinEnclosingTriangle(std::vector<cv::Point> &pts, cv::Mat &img, int imgWidth, int imgHeight)$/;"	f	class:VideoProcess
+getModel	GUI/OpenGL/transform.h	/^    inline glm::mat4 getModel() const {$/;"	f	class:Transform
+getPos	GUI/OpenGL/camera.h	/^    inline glm::vec3 getPos() const {$/;"	f	class:Camera
+getPos	GUI/OpenGL/transform.h	/^    inline glm::vec3& getPos() { return m_pos; }$/;"	f	class:Transform
+getRot	GUI/OpenGL/transform.h	/^    inline glm::quat& getRot() { return m_rot; }$/;"	f	class:Transform
+getScale	GUI/OpenGL/transform.h	/^    inline glm::vec3& getScale() { return m_scale; }$/;"	f	class:Transform
+getViewProjection	GUI/OpenGL/camera.h	/^    inline glm::mat4 getViewProjection() const {$/;"	f	class:Camera
+get_tegra_pipeline	Calc/VideoProcess/VideoProcess.cpp	/^std::string get_tegra_pipeline(int width, int height, int fps) {$/;"	f
+indices	Utils/threadexchangedata.h	/^    Eigen::Matrix3Xi* indices;$/;"	m	struct:ThreadExchangeData
+init	Calc/UavcanNode/UavcanNode.cpp	/^void UavcanNode::init(const std::vector<std::string>& ifaces, uavcan::NodeID nid,$/;"	f	class:UavcanNode
+init	Calc/VideoProcess/VideoProcess.cpp	/^bool VideoProcess::init() {$/;"	f	class:VideoProcess
+isActive	GUI/Interaction/arcball.h	/^    bool isActive() { return m_doRotation; };$/;"	f	class:Arcball
+isActive	GUI/Interaction/pan.h	/^    bool isActive() { return m_doPanning; };$/;"	f	class:Pan
+isActive	GUI/Interaction/zoom.h	/^    bool isActive() { return m_doZooming; };$/;"	f	class:Zoom
+keyboardEvent	GUI/application.cpp	/^bool Application::keyboardEvent(int key, int scancode, int action, int modifiers) {$/;"	f	class:Application
+keyboardEvent	GUI/openglcanvas.cpp	/^bool OpenGLCanvas::keyboardEvent(int key, int scancode, int action, int modifiers) {$/;"	f	class:OpenGLCanvas
+loop	Calc/UavcanNode/UavcanNode.cpp	/^void UavcanNode::loop() {$/;"	f	class:UavcanNode
+loop	Calc/VideoProcess/VideoProcess.cpp	/^void VideoProcess::loop() {$/;"	f	class:VideoProcess
+m_arcball	GUI/openglcanvas.h	/^    Arcball* m_arcball;$/;"	m	class:OpenGLCanvas
+m_camera	GUI/openglcanvas.h	/^    Camera* m_camera;$/;"	m	class:OpenGLCanvas
+m_canvas	GUI/application.h	/^    OpenGLCanvas *m_canvas;$/;"	m	class:Application
+m_doPanning	GUI/Interaction/pan.h	/^    bool m_doPanning;$/;"	m	class:Pan
+m_doRotation	GUI/Interaction/arcball.h	/^    bool m_doRotation;$/;"	m	class:Arcball
+m_doZooming	GUI/Interaction/zoom.h	/^    bool m_doZooming;$/;"	m	class:Zoom
+m_drawCount	GUI/openglcanvas.h	/^    int m_drawCount;$/;"	m	class:OpenGLCanvas
+m_forward	GUI/OpenGL/camera.h	/^    glm::vec3 m_forward;$/;"	m	class:Camera
+m_height	GUI/Interaction/arcball.h	/^    int m_width, m_height;$/;"	m	class:Arcball
+m_height	GUI/Interaction/pan.h	/^    int m_width, m_height;$/;"	m	class:Pan
+m_height	GUI/Interaction/zoom.h	/^    int m_height;$/;"	m	class:Zoom
+m_indices	GUI/openglcanvas.h	/^    Eigen::Matrix3Xi* m_indices;$/;"	m	class:OpenGLCanvas
+m_mouseMode	GUI/openglcanvas.h	/^    int m_mouseMode;$/;"	m	class:OpenGLCanvas
+m_newData	GUI/openglcanvas.h	/^    bool* m_newData;$/;"	m	class:OpenGLCanvas
+m_pan	GUI/openglcanvas.h	/^    Pan* m_pan;$/;"	m	class:OpenGLCanvas
+m_perspective	GUI/OpenGL/camera.h	/^    glm::mat4 m_perspective;$/;"	m	class:Camera
+m_pos	GUI/OpenGL/transform.h	/^    glm::vec3 m_pos;$/;"	m	class:Transform
+m_position	GUI/OpenGL/camera.h	/^    glm::vec3 m_position;$/;"	m	class:Camera
+m_r	GUI/Interaction/arcball.h	/^    float m_r;$/;"	m	class:Arcball
+m_rot	GUI/OpenGL/transform.h	/^    glm::quat m_rot;$/;"	m	class:Transform
+m_scale	GUI/OpenGL/transform.h	/^    glm::vec3 m_scale;$/;"	m	class:Transform
+m_shader	GUI/openglcanvas.h	/^    nanogui::GLShader m_shader;$/;"	m	class:OpenGLCanvas
+m_startP	GUI/Interaction/arcball.h	/^    glm::vec3 m_startP;$/;"	m	class:Arcball
+m_startP	GUI/Interaction/pan.h	/^    glm::vec2 m_startP;$/;"	m	class:Pan
+m_startP	GUI/Interaction/zoom.h	/^    float m_startP;$/;"	m	class:Zoom
+m_transform	GUI/openglcanvas.h	/^    Transform* m_transform;$/;"	m	class:OpenGLCanvas
+m_up	GUI/OpenGL/camera.h	/^    glm::vec3 m_up;$/;"	m	class:Camera
+m_verts	GUI/openglcanvas.h	/^    Eigen::Matrix3Xf* m_verts;$/;"	m	class:OpenGLCanvas
+m_width	GUI/Interaction/arcball.h	/^    int m_width, m_height;$/;"	m	class:Arcball
+m_width	GUI/Interaction/pan.h	/^    int m_width, m_height;$/;"	m	class:Pan
+m_zoom	GUI/openglcanvas.h	/^    Zoom* m_zoom;$/;"	m	class:OpenGLCanvas
+main	main.cpp	/^int main(int \/* argc *\/, char ** \/* argv *\/) {$/;"	f
+matToTexture	GUI/application.cpp	/^GLuint Application::matToTexture(cv::Mat &mat, GLenum minFilter, GLenum magFilter, GLenum wrapFilter)$/;"	f	class:Application
+motion	GUI/Interaction/arcball.cpp	/^void Arcball::motion(float x, float y, float& angle, glm::vec3& axis) {$/;"	f	class:Arcball
+motion	GUI/Interaction/pan.cpp	/^void Pan::motion(float x, float y, glm::vec3& translation) {$/;"	f	class:Pan
+motion	GUI/Interaction/zoom.cpp	/^void Zoom::motion(float y, float &scale) {$/;"	f	class:Zoom
+mouseButtonEvent	GUI/openglcanvas.cpp	/^bool OpenGLCanvas::mouseButtonEvent(const nanogui::Vector2i &p, int button, bool down, int modifiers)$/;"	f	class:OpenGLCanvas
+mouseMotionEvent	GUI/openglcanvas.cpp	/^bool OpenGLCanvas::mouseMotionEvent(const nanogui::Vector2i &p, const nanogui::Vector2i &rel, int button, int modifiers)$/;"	f	class:OpenGLCanvas
+newData	Utils/threadexchangedata.h	/^    bool newData;$/;"	m	struct:ThreadExchangeData
+override	GUI/openglcanvas.h	/^    virtual bool keyboardEvent(int key, int scancode, int action, int modifiers) override;$/;"	m	class:OpenGLCanvas
+override	GUI/openglcanvas.h	/^    virtual bool mouseButtonEvent(const nanogui::Vector2i &p, int button, bool down, int modifiers) override;$/;"	m	class:OpenGLCanvas
+override	GUI/openglcanvas.h	/^    virtual bool mouseMotionEvent(const nanogui::Vector2i &p, const nanogui::Vector2i &rel, int button, int modifiers) override;$/;"	m	class:OpenGLCanvas
+override	GUI/openglcanvas.h	/^    virtual void drawGL() override;$/;"	m	class:OpenGLCanvas
+process	Calc/opencvprocess.h	/^    static int process(ThreadExchangeData *data){$/;"	f	namespace:OpencvProcess
+process	Calc/testCalc.h	/^    static int process(ThreadExchangeData *data) {$/;"	f	namespace:TestCalc
+process	Calc/uavcanprocess.h	/^    static int process(ThreadExchangeData *data){$/;"	f	namespace:UavcanProcess
+projectOnSphere	GUI/Interaction/arcball.cpp	/^glm::vec3 Arcball::projectOnSphere(float x, float y, float r) {$/;"	f	class:Arcball
+result	Utils/threadexchangedata.h	/^    cv::Mat result;$/;"	m	struct:ThreadExchangeData
+setInteractionMode	GUI/openglcanvas.cpp	/^bool OpenGLCanvas::setInteractionMode(int mode, bool active) {$/;"	f	class:OpenGLCanvas
+setPos	GUI/OpenGL/transform.h	/^    inline void setPos(const glm::vec3& pos) { m_pos = pos; }$/;"	f	class:Transform
+setRot	GUI/OpenGL/transform.h	/^    inline void setRot(const glm::quat &rot) { m_rot = rot; }$/;"	f	class:Transform
+setScale	GUI/OpenGL/transform.h	/^    inline void setScale(const glm::vec3& scale) { m_scale = scale; }$/;"	f	class:Transform
+setSize	GUI/openglcanvas.cpp	/^void OpenGLCanvas::setSize(const nanogui::Vector2i &size) {$/;"	f	class:OpenGLCanvas
+startTime	Utils/threadexchangedata.h	/^    time_t startTime=0;$/;"	m	struct:ThreadExchangeData
+start_calc	Utils/threadexchangedata.h	/^    bool start_calc = true;$/;"	m	struct:ThreadExchangeData
+threholdFrame	Utils/threadexchangedata.h	/^    std::queue<cv::Mat> threholdFrame;$/;"	m	struct:ThreadExchangeData
+threholdFrame2	Utils/threadexchangedata.h	/^    std::queue<cv::Mat> threholdFrame2;$/;"	m	struct:ThreadExchangeData
+vertices	Utils/threadexchangedata.h	/^    Eigen::Matrix3Xf* vertices;$/;"	m	struct:ThreadExchangeData
+yaw	Utils/threadexchangedata.h	/^    std::vector<float> yaw={0};$/;"	m	struct:ThreadExchangeData
+~OpenGLCanvas	GUI/openglcanvas.h	/^    ~OpenGLCanvas() {$/;"	f	class:OpenGLCanvas

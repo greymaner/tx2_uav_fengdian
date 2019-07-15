@@ -1,0 +1,41 @@
+# payload bit len = 32 + 8*2 + 64*3 + 32*11 + 8*8 + 54 = 710
+
+# id
+
+uint32 devid
+
+# gnss mode and fix type (see "gps/definitions.h" for detail)
+
+uint8 mode
+uint8 fix_type
+
+# ECEF
+
+float64[3] ecef_pos			# ECEF coordinates in m (note: use type double for not loss of precision)
+float32[3] ecef_vel			# ECEF velocity in m/s
+float32[3] ecef_pos_std		# Position standard deviation in m
+float32[3] ecef_vel_std		# Velocity standard deviation in m/s
+
+# heading
+
+float32 heading				# Angle start from module's head in degree (CW is positive)
+float32 heading_std			# Angle standard deviation in degree
+
+# satellite
+
+uint8 pos_sat				# position/velocity satellite
+uint8 head_sat				# heading satellite
+
+# RTK solution status
+# constants is defined in gps devices submodule's "novatel.h"
+
+uint8 pos_type
+uint8 pos_sol
+uint8 vel_type
+uint8 vel_sol
+uint8 head_type
+uint8 head_sol
+
+# UTC microsecond
+
+uavcan.Timestamp utc

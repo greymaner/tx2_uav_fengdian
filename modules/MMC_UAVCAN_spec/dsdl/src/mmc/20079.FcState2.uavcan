@@ -1,0 +1,23 @@
+# payload bit len = 64*3 + 32*10 + 8*6 = 560
+
+# global positon
+int40 longitude_deg_1e8
+int40 latitude_deg_1e8
+float32 alt
+
+int40 ref_longitude_deg_1e8
+int40 ref_latitude_deg_1e8
+float32 ref_alt
+float16 eph
+float16 epv
+
+# bottom distance
+float32 dist_bottom
+
+# obstacle
+# stereo obstacle information
+float32 something
+
+bool global_pos_ok
+bool dist_bottom_ok
+bool stereo_ok

@@ -1,0 +1,11 @@
+#
+# Stereo vision data.
+# split FOV into N(<=12) sector from left
+# each sector has a distance (cm)
+#
+
+uint8 FOV = 120
+uint16 min_distance = 10
+uint16 max_distance = 2000
+
+uint16[<=12] distance

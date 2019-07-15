@@ -1,0 +1,10 @@
+# payload bit len = 8*2 + 1*5 = 21
+
+uint8 mode
+uint8 id
+
+bool lock
+bool arm
+bool land
+bool rc_lost
+bool link_lost

@@ -1,0 +1,12 @@
+[submodule "modules/nanogui"]
+	path = modules/nanogui
+	url = https://github.com/wjakob/nanogui.git
+[submodule "modules/libuavcan"]
+	path = modules/libuavcan
+	url = https://github.com/UAVCAN/libuavcan.git
+[submodule "modules/embed-resource"]
+	path = modules/embed-resource
+	url = https://github.com/cyrilcode/embed-resource.git
+[submodule "modules/MMC_UAVCAN_spec"]
+	path = modules/MMC_UAVCAN_spec
+	url = http://192.168.4.85/lijie/MMC_UAVCAN_spec.git

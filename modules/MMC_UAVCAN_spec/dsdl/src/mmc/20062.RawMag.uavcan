@@ -1,0 +1,7 @@
+# payload bit len = 32 + 32*3 = 128
+# raw value in unit Gauss
+# pre oversampling to about 50hz
+
+uint32 devid
+
+float32[3] mag_latest                 # Latest sample, raw value (pre oversampling in module firmware)

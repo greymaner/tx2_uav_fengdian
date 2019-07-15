@@ -1,0 +1,9 @@
+# payload bit len = 32 + 32 + 32 = 96
+# pressure in 0.01 mbar unit (e.g. 100009 -> 1000.09 mbar)
+# temperature in 0.01 Celsius degree unit (e.g. 2007 -> 20.7C)
+
+uint32 devid
+
+int32 pressure			# Latest sample, raw value
+int32 temperature		# Latest sample, raw value
+

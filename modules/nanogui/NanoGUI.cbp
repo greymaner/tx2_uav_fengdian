@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NanoGUI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\modules\;CMake Files\modules\embed-resource\;CMake Files\modules\nanogui\;CMake Files\modules\nanogui\ext\;CMake Files\modules\nanogui\ext\glfw\;CMake Files\modules\nanogui\ext\glfw\CMake\;CMake Files\modules\nanogui\ext\glfw\CMake\modules\;CMake Files\modules\nanogui\ext\glfw\src\;CMake Files\modules\MMC_UAVCAN_spec\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\linux\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\posix\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui-obj">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/nanogui-obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNANOGUI_BUILD"/>
+					<Add option="-DNVG_BUILD"/>
+					<Add option="-D_GLFW_BUILD_DLL"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui-obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui-obj/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/nanogui-obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNANOGUI_BUILD"/>
+					<Add option="-DNVG_BUILD"/>
+					<Add option="-D_GLFW_BUILD_DLL"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui-obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/libnanogui.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/libnanogui.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_icons">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example_icons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example_icons"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_icons/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example_icons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example_icons/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example4">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example4/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_objects">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glfw_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw_objects"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_objects/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glfw_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw_objects/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/libglfw.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/libglfw.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/ext/nanovg/src/nanovg.c.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/nanogui_resources.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/button.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/checkbox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/colorpicker.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/colorwheel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/combobox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/common.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/glcanvas.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/glutil.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/graph.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/imagepanel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/imageview.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/label.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/layout.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/messagedialog.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/popup.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/popupbutton.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/progressbar.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/screen.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/serializer.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/slider.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/stackedwidget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/tabheader.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/tabwidget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/textbox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/theme.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/vscrollpanel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/widget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/window.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/egl_context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/egl_context.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glx_context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glx_context.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/init.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/input.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/internal.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/linux_joystick.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/linux_joystick.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/monitor.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_time.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_time.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_tls.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_tls.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/vulkan.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/window.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_init.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_monitor.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_platform.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_window.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/xkb_unicode.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/xkb_unicode.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src/nanovg.c">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src/nanovg.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/glfw_config.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/button.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/checkbox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/colorpicker.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/colorwheel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/combobox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/common.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/formhelper.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/glcanvas.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/glutil.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/graph.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/imagepanel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/imageview.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/label.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/layout.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/messagedialog.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/nanogui.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/opengl.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/popup.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/popupbutton.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/progressbar.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/screen.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/serializer/core.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/serializer/opengl.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/serializer/sparse.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/slider.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/stackedwidget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/tabheader.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/tabwidget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/textbox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/theme.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/toolbutton.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/vscrollpanel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/widget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/window.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/nanogui_resources.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/nanogui_resources.cpp.rule">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/nanogui_resources.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/button.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/checkbox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/colorpicker.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/colorwheel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/combobox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/common.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example1.cpp">
+			<Option target="example1"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example2.cpp">
+			<Option target="example2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example3.cpp">
+			<Option target="example3"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example4.cpp">
+			<Option target="example4"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example_icons.cpp">
+			<Option target="example_icons"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/glcanvas.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/glutil.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/graph.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/imagepanel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/imageview.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/label.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/layout.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/messagedialog.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/popup.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/popupbutton.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/progressbar.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/screen.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/serializer.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/slider.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/stackedwidget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/tabheader.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/tabwidget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/textbox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/theme.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/vscrollpanel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/widget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/window.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/embed-resource/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\embed-resource\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\nanogui\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/CMakeLists.txt.in">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\linux\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\posix\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/cmake/Modules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

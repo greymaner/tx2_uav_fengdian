@@ -1,0 +1,32 @@
+# payload bit len = (16 + 16*3 + 20*3)*2 + 4 + 32*2 = 316
+
+# sensor module use 1000Hz sample rate and broadcast every 4 samples (250Hz broadcast freq)
+# integration_interval(us) is the time between 4 samples
+# gyro_latest is the last one in 4 samples
+# gyro_integral is the sum of 4 samples
+
+# TODO use service to get these constant
+float32 G = 9.80665
+float32 ACCEL_RANGE = 156.9064		# m/s2			(16*9.80665)
+float32 GYRO_RANGE = 2000			# dps
+float32 ACCEL_SENS = 0.004788403	# (m/s2)/LSB	(9.80665/2048)
+float32 GYRO_SENS = 0.001064225		# (rad/s)/LSB		(1/16.4)*(3.1415/180)
+float32 SAMPLE_FREQ	= 1000
+float32 OVERSAMPLE_FACTOR = 4
+float32 PUB_FREQ = 250
+
+uint32 gyro_devid
+
+uint16 gyro_integration_interval
+
+int16[3] gyro_latest                 # Latest sample, raw value
+int20[3] gyro_integral				 # Integrated sample, raw value
+
+void4
+
+uint32 accel_devid
+
+uint16 accel_integration_interval
+
+int16[3] accel_latest                # Latest sample, raw value
+int20[3] accel_integral				 # Integrated sample, raw value

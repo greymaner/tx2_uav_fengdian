@@ -1,0 +1,53 @@
+#
+# Relative State of Charge (SOC) estimate, in percent.
+# http://en.wikipedia.org/wiki/State_of_charge
+#
+uint8 state_of_charge_pct           # Percent of the full charge [0, 100]. This field is required
+
+#
+# State of Health (SOH) estimate, in percent.
+# http://en.wikipedia.org/wiki/State_of_health
+#
+uint8 state_of_health_pct           # Health of the battery, in percent, optional
+
+#
+# Battery identification.
+# 
+# When the id is between 1 to 50, it shows this battery is 6S.
+# When the id is between 51 to 100, it shows this battery is 12S.
+# When the id is 0, it shows this battery is unknown.
+#
+uint8 BATTERY_ID_6S_MMC_QUAD_X85       = 1
+uint8 BATTERY_ID_12S_MMC_HEXA_1550     = 51
+uint8 battery_id                    # Identifies the battery within this vehicle
+
+#
+# Status flags.
+# Notes:
+#  - CHARGING must be always set as long as the battery is connected to a charger, even if the charging is complete.
+#  - CHARGED must be cleared immediately when the charger is disconnected.
+#
+uint16 STATUS_FLAG_IN_USE       = 1     # The battery is currently used as a power supply
+uint16 STATUS_FLAG_CHARGING     = 2     # Charger is active
+uint16 STATUS_FLAG_CHARGED      = 4     # Charging complete, but the charger is still active
+uint16 STATUS_FLAG_TEMP_HOT     = 8     # Battery temperature is above normal
+uint16 STATUS_FLAG_TEMP_COLD    = 16    # Battery temperature is below normal
+uint16 STATUS_FLAG_OVERLOAD     = 32    # Safe operating area violation
+uint16 STATUS_FLAG_BAD_BATTERY  = 64    # This battery should not be used anymore (e.g. low SOH)
+uint16 STATUS_FLAG_NEED_SERVICE = 128   # This battery requires maintenance (e.g. balancing, full recharge)
+uint16 STATUS_FLAG_BMS_ERROR    = 256   # Battery management system/controller error, smart battery interface error
+uint16 status_flags
+
+uint16 remaining_capacity_mah       # [mAh]
+uint16 full_charge_capacity_mah     # [mAh]
+
+uint16 time_to_empty                # [Minutes]
+uint16 time_to_full                 # [Minutes]
+
+uint16 bat_cycle_count              # [Times]
+
+int16[12] cells                     # [milliVolt]
+
+float16 voltage                     # [Volt]
+float16 current                     # [Ampere]
+float16 temperature                 # [Kelvin]

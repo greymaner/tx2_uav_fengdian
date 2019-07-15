@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+65b48f6c1ade779ff96dfd6cec2e517a libuavcan_dsdlc_run.stamp
+cb31f6bbd8b9d350e8897a7fc3ec23b3 modules/libuavcan/libuavcan/CMakeFiles/libuavcan_dsdlc
+3d3ec3cbd27fff0953909d4db6a6f269 modules/nanogui/nanogui_resources.cpp
+e99e8097b7c8a4c7813888282e9aa3b2 src/GUI/shader/basicShader.fs.c
+2e2821e2938f3f795430c0233a3a4698 src/GUI/shader/basicShader.vs.c
+5b9a4f14767e0ea59e3bf590f5d063a1 src/GUI/shader/frag.glsl.c
+44cf6a0baf48a77bb540e69e5ab724a6 src/GUI/shader/vert.glsl.c

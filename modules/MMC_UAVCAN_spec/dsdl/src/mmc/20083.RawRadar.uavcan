@@ -1,0 +1,7 @@
+#
+# Generic narrow-beam range sensor data.
+#
+
+uint8 sensor_id
+
+uint16 range                        # Centimeters

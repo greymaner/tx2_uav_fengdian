@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -pedantic -std=c++11 -g  -rdynamic CMakeFiles/test_system_utils.dir/apps/test_system_utils.cpp.o  -o test_system_utils ../../libuavcan/libuavcan.a -lrt -lpthread 

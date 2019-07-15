@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -pedantic -std=c++11 -g  -rdynamic CMakeFiles/test_dynamic_node_id_client.dir/apps/test_dynamic_node_id_client.cpp.o  -o test_dynamic_node_id_client ../../libuavcan/libuavcan.a -lrt -lpthread 

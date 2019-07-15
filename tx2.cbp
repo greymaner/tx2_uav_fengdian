@@ -1,0 +1,3045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tx2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\modules\;CMake Files\modules\embed-resource\;CMake Files\modules\nanogui\;CMake Files\modules\nanogui\ext\;CMake Files\modules\nanogui\ext\glfw\;CMake Files\modules\nanogui\ext\glfw\CMake\;CMake Files\modules\nanogui\ext\glfw\CMake\modules\;CMake Files\modules\nanogui\ext\glfw\src\;CMake Files\modules\MMC_UAVCAN_spec\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\linux\;CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\posix\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tx2">
+				<Option output="/home/mmc-wy/mmc_onboard/tx2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/glad/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 tx2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tx2/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/tx2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/glad/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 tx2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cv_nanogui">
+				<Option output="/home/mmc-wy/mmc_onboard/test_cv_nanogui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/glad/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 test_cv_nanogui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cv_nanogui/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/test_cv_nanogui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/glad/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 test_cv_nanogui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gst_opencv">
+				<Option output="/home/mmc-wy/mmc_onboard/test_gst_opencv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/glad/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 test_gst_opencv"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gst_opencv/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/test_gst_opencv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/glad/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 test_gst_opencv/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libuavcan_dsdlc">
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 libuavcan_dsdlc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_cpp03">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/libuavcan_cpp03.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan_cpp03"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_cpp03/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/libuavcan_cpp03.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan_cpp03/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/libuavcan.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/libuavcan.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_optim">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/libuavcan_optim.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan_optim"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_optim/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/libuavcan_optim.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 uavcan_optim/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_dynamic_node_id_server">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/uavcan_dynamic_node_id_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 uavcan_dynamic_node_id_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_dynamic_node_id_server/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/uavcan_dynamic_node_id_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 uavcan_dynamic_node_id_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_nodetool">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/uavcan_nodetool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 uavcan_nodetool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_nodetool/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/uavcan_nodetool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 uavcan_nodetool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_time_sync">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_time_sync" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_time_sync"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_time_sync/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_time_sync" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_time_sync/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_file_server">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_file_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_file_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_file_server/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_file_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_file_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_node">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_node"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_node/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_node/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_monitor">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/uavcan_monitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 uavcan_monitor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uavcan_monitor/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/uavcan_monitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 uavcan_monitor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_clock">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_clock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_clock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_clock/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_clock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_clock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_posix">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_posix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_posix"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_posix/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_posix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_posix/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_system_utils">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_system_utils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_system_utils"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_system_utils/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_system_utils" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_system_utils/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_socket">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_socket"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_socket/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_socket/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_dynamic_node_id_client">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_dynamic_node_id_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_dynamic_node_id_client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_dynamic_node_id_client/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_dynamic_node_id_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_dynamic_node_id_client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_multithreading">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_multithreading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_multithreading"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_multithreading/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/test_multithreading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DUAVCAN_DEBUG=1"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/./libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 test_multithreading/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/libuavcan/libuavcan_drivers/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui-obj">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/nanogui-obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNANOGUI_BUILD"/>
+					<Add option="-DNVG_BUILD"/>
+					<Add option="-D_GLFW_BUILD_DLL"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui-obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui-obj/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/nanogui-obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNANOGUI_BUILD"/>
+					<Add option="-DNVG_BUILD"/>
+					<Add option="-D_GLFW_BUILD_DLL"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui-obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/libnanogui.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nanogui/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/libnanogui.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 nanogui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_icons">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example_icons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example_icons"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_icons/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example_icons" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example_icons/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example4">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example4/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/example4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DCORO_SJLJ"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/coro"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 example4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_objects">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glfw_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw_objects"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw_objects/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glfw_objects.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw_objects/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/libglfw.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/libglfw.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="embed-resource">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/embed-resource/embed-resource" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 embed-resource"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="embed-resource/fast">
+				<Option output="/home/mmc-wy/mmc_onboard/modules/embed-resource/embed-resource" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUAVCAN_PLATFORM=linux"/>
+					<Add option="-DUAVCAN_CPP_VERSION=UAVCAN_CPP11"/>
+					<Add option="-DUAVCAN_MEM_POOL_BLOCK_SIZE=48"/>
+					<Add option="-DUAVCAN_NO_ASSERTIONS"/>
+					<Add option="-DNANOGUI_SHARED"/>
+					<Add option="-DNVG_SHARED"/>
+					<Add option="-DGLAD_GLAPI_EXPORT"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/dsdl/generated/mmc"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/include/dsdlc_generated"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/include"/>
+					<Add directory="/usr/local/include/gstreamer-1.0"/>
+					<Add directory="/usr/local/lib/gstreamer-1.0/include"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/eigen"/>
+					<Add directory="/home/mmc-wy/mmc_onboard/modules/embed-resource"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 embed-resource/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mmc-wy/mmc_onboard/modules/embed-resource/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/driver/uc_can.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/marshal/uc_bit_array_copy.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/marshal/uc_bit_stream.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/marshal/uc_float_spec.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/marshal/uc_scalar_codec.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/node/uc_generic_publisher.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/node/uc_generic_subscriber.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/node/uc_global_data_type_registry.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/node/uc_scheduler.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/node/uc_service_client.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/node/uc_timer.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/protocol/uc_dynamic_node_id_client.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/protocol/uc_node_status_provider.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_can_acceptance_filter_configurator.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_can_io.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_crc.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_dispatcher.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_frame.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_outgoing_transfer_registry.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_transfer.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_transfer_buffer.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_transfer_listener.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_transfer_receiver.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/transport/uc_transfer_sender.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/uc_data_type.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/uc_dynamic_memory.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/src/uc_error.cpp">
+			<Option target="uavcan_cpp03"/>
+			<Option target="uavcan"/>
+			<Option target="uavcan_optim"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_clock.cpp">
+			<Option target="test_clock"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_dynamic_node_id_client.cpp">
+			<Option target="test_dynamic_node_id_client"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_file_server.cpp">
+			<Option target="test_file_server"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_multithreading.cpp">
+			<Option target="test_multithreading"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_node.cpp">
+			<Option target="test_node"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_posix.cpp">
+			<Option target="test_posix"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_socket.cpp">
+			<Option target="test_socket"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_system_utils.cpp">
+			<Option target="test_system_utils"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/test_time_sync.cpp">
+			<Option target="test_time_sync"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/uavcan_dynamic_node_id_server.cpp">
+			<Option target="uavcan_dynamic_node_id_server"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/uavcan_monitor.cpp">
+			<Option target="uavcan_monitor"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/apps/uavcan_nodetool.cpp">
+			<Option target="uavcan_nodetool"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/embed-resource/embedresource.cpp">
+			<Option target="embed-resource"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/glad/src/glad.c">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/ext/nanovg/src/nanovg.c.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/nanogui_resources.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/button.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/checkbox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/colorpicker.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/colorwheel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/combobox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/common.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/glcanvas.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/glutil.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/graph.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/imagepanel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/imageview.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/label.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/layout.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/messagedialog.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/popup.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/popupbutton.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/progressbar.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/screen.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/serializer.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/slider.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/stackedwidget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/tabheader.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/tabwidget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/textbox.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/theme.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/vscrollpanel.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/widget.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeFiles/nanogui-obj.dir/src/window.cpp.o">
+			<Option target="nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/egl_context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/egl_context.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glx_context.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glx_context.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/init.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/input.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/internal.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/linux_joystick.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/linux_joystick.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/monitor.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_time.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_time.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_tls.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/posix_tls.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/vulkan.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/window.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_init.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_monitor.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_platform.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/x11_window.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/xkb_unicode.c">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/xkb_unicode.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src/nanovg.c">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/nanovg/src/nanovg.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/glx_context.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/linux_joystick.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_time.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/x11_init.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/x11_monitor.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/x11_window.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/xkb_unicode.c.o">
+			<Option target="nanogui"/>
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext_build/glfw/src/glfw_config.h">
+			<Option target="glfw_objects"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/button.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/checkbox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/colorpicker.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/colorwheel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/combobox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/common.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/formhelper.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/glcanvas.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/glutil.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/graph.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/imagepanel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/imageview.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/label.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/layout.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/messagedialog.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/nanogui.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/opengl.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/popup.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/popupbutton.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/progressbar.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/screen.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/serializer/core.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/serializer/opengl.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/serializer/sparse.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/slider.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/stackedwidget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/tabheader.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/tabwidget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/textbox.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/theme.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/toolbutton.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/vscrollpanel.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/widget.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/include/nanogui/window.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/nanogui_resources.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/nanogui_resources.cpp.rule">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/nanogui_resources.h">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/button.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/checkbox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/colorpicker.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/colorwheel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/combobox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/common.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example1.cpp">
+			<Option target="example1"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example2.cpp">
+			<Option target="example2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example3.cpp">
+			<Option target="example3"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example4.cpp">
+			<Option target="example4"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/example_icons.cpp">
+			<Option target="example_icons"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/glcanvas.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/glutil.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/graph.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/imagepanel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/imageview.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/label.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/layout.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/messagedialog.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/popup.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/popupbutton.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/progressbar.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/screen.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/serializer.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/slider.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/stackedwidget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/tabheader.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/tabwidget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/textbox.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/theme.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/vscrollpanel.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/widget.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/src/window.cpp">
+			<Option target="nanogui-obj"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/UavcanNode/UavcanNode.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/UavcanNode/UavcanNode.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/VideoProcess/VideoProcess.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/VideoProcess/VideoProcess.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/opencvprocess.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/testCalc.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Calc/uavcanprocess.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/Interaction/arcball.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/Interaction/arcball.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/Interaction/pan.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/Interaction/pan.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/Interaction/zoom.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/Interaction/zoom.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/OpenGL/camera.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/OpenGL/transform.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/appbuilder.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/application.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/application.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/openglcanvas.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/openglcanvas.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/basicShader.fs.c">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/basicShader.fs.c.rule">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/basicShader.vs.c">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/basicShader.vs.c.rule">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/frag.glsl.c">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/frag.glsl.c.rule">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/vert.glsl.c">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/GUI/shader/vert.glsl.c.rule">
+			<Option target="tx2"/>
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/Utils/threadexchangedata.h">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/src/main.cpp">
+			<Option target="tx2"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/test_cv_nanogui.cpp">
+			<Option target="test_cv_nanogui"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/test_gst_opencv.cpp">
+			<Option target="test_gst_opencv"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/embed-resource/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\embed-resource\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\nanogui\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/nanogui/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\modules\nanogui\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/CMakeLists.txt.in">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\linux\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/modules/MMC_UAVCAN_spec/libuavcan/libuavcan_drivers/posix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\MMC_UAVCAN_spec\libuavcan\libuavcan_drivers\posix\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/cmake/Modules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/mmc-wy/mmc_onboard/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
